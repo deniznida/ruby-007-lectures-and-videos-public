@@ -21,7 +21,11 @@ puts "Expressions return a value (just like methods)."
 
 puts "Enclosing an expression in () defines an order of operation."
 
-puts 98 +59872/13*8*-51
+puts 98+(((59872/13)*8)*-51)
+
+
+
+
 puts 98 + (59872 / (13*8)) * -51
 
 puts "The String type implements some arithmetic methods as well."
